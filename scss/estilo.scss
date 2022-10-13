@@ -1,4 +1,6 @@
-
-h1 {
-    color: aqua;
-}
+@import "./variables.scss";
+@import "./header.scss";
+@import "./main.scss";
+@import "./footer.scss";
+@import "./fuentes.scss";
+@import "./mediaquerys.scss";

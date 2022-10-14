@@ -1,13 +1,57 @@
 main {
-    .row {
-        .col {
-            .card {
-                .card-body {
-                    .card-text {
-                        text-align: center;
-                    }
+    .container {
+        .frase {
+            text-align: center;
+            color: $colorprincipal;
+            font-family: $fuente;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+main {
+    .container {
+        .row {
+            .col-6 {
+                .proyectos {
+                    font-family: $fuente;
+                    color: rgb(224, 151, 15);
+                    margin-top: 20px;
+                
                 }
             }
         }
     }
 }
+    
+
+main {
+    .container {
+        .row{
+            .col-6 img {
+                height: 400px;
+            
+            }
+        }
+    }
+}
+
+
+main {
+    .row {
+        .col-12 {
+            .carousel-inner {
+
+                .carousel-item img {
+                    height: 500px;
+                    margin-bottom: 50px;
+                }
+        
+            }
+
+        }
+    }
+}
+
+
+

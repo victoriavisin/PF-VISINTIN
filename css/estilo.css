@@ -14,8 +14,23 @@ header .container .row .col .titulo {
   margin-top: 70px;
   text-align: center; }
 
-main .row .col .card .card-body .card-text {
-  text-align: center; }
+main .container .frase {
+  text-align: center;
+  color: black;
+  font-family: "princfont";
+  margin-bottom: 20px; }
+
+main .container .row .col-6 .proyectos {
+  font-family: "princfont";
+  color: #e0970f;
+  margin-top: 20px; }
+
+main .container .row .col-6 img {
+  height: 400px; }
+
+main .row .col-12 .carousel-inner .carousel-item img {
+  height: 500px;
+  margin-bottom: 50px; }
 
 @font-face {
   font-family: "princfont";
@@ -40,3 +55,7 @@ main .row .col .card .card-body .card-text {
 @font-face {
   font-family: 'code';
   src: url(../assets/fonts/SourceCodePro-VariableFont_wght.ttf); }
+
+@media only screen and (max-width: 767px) {
+  main .carousel-item {
+    height: auto; } }

@@ -1,0 +1,21 @@
+$vista:mobile;
+
+main {
+    @if $vista == desktop{
+       @media only screen and (min-width:1024px) {
+            .carousel-item {
+                 height: 300px;
+                }
+            }
+        }
+
+    @else if $vista == mobile {
+         @media only screen and (max-width:767px) {
+          .carousel-item {
+               height: auto;
+            }
+        }
+    }
+}
+
+

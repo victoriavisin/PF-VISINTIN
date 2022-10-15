@@ -78,6 +78,16 @@ main {
     }
 }
 
+main {
+    .row {
+        .col {
+            .btn {
+                font-family: $fuente;
+            }
+        }
+    }
+}
+
 
 main {
     .container {
@@ -89,22 +99,4 @@ main {
         }
     }
 }
-
-main {
-    .row {
-        .col-12 {
-            .carousel-inner {
-
-                .carousel-item img {
-                    height: 500px;
-                    margin-bottom: 50px;
-                }
-        
-            }
-
-        }
-    }
-}
-
-
 

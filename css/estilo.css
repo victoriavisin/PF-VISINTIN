@@ -43,14 +43,13 @@ main .row .col .texto {
   font-family: "princfont";
   color: black; }
 
+main .row .col .btn {
+  font-family: "princfont"; }
+
 main .container .eslogan {
   font-family: "princfont";
   color: black;
   text-align: center; }
-
-main .row .col-12 .carousel-inner .carousel-item img {
-  height: 500px;
-  margin-bottom: 50px; }
 
 footer {
   background-color: black; }

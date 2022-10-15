@@ -28,9 +28,32 @@ main .container .row .col-6 .proyectos {
 main .container .row .col-6 img {
   height: 400px; }
 
+main .row .col img {
+  height: 350px;
+  width: 350px; }
+
+main .row .col .fecha {
+  font-family: "princfont"; }
+
+main .row .col .titulo {
+  font-family: "princfont";
+  color: #e0970f; }
+
+main .row .col .texto {
+  font-family: "princfont";
+  color: black; }
+
+main .container .eslogan {
+  font-family: "princfont";
+  color: black;
+  text-align: center; }
+
 main .row .col-12 .carousel-inner .carousel-item img {
   height: 500px;
   margin-bottom: 50px; }
+
+footer {
+  background-color: black; }
 
 @font-face {
   font-family: "princfont";
@@ -58,4 +81,13 @@ main .row .col-12 .carousel-inner .carousel-item img {
 
 @media only screen and (max-width: 767px) {
   main .carousel-item {
-    height: auto; } }
+    height: auto; }
+  main .fecha {
+    text-align: center; }
+  main .titulo {
+    text-align: center; }
+  main .texto {
+    display: none; }
+  main .col img {
+    max-width: 100%;
+    max-height: 300px; } }

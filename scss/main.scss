@@ -39,6 +39,59 @@ main {
 
 main {
     .row {
+        .col img {
+          height: 350px;
+          width: 350px;
+        }
+    }
+}
+
+main {
+    .row {
+        .col {
+            .fecha {
+                font-family: $fuente;
+            }
+        }
+    }
+}
+
+main {
+    .row {
+        .col {
+            .titulo {
+                font-family: $fuente;
+                color: rgb(224, 151, 15);
+            }
+        }
+    }
+}
+
+main {
+    .row {
+        .col {
+            .texto {
+                font-family: $fuente;
+                color: $colorprincipal;
+            }
+        }
+    }
+}
+
+
+main {
+    .container {
+        .eslogan {
+            font-family: $fuente;
+            color: $colorprincipal;
+            text-align: center;
+            
+        }
+    }
+}
+
+main {
+    .row {
         .col-12 {
             .carousel-inner {
 

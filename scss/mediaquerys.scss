@@ -14,8 +14,24 @@ main {
           .carousel-item {
                height: auto;
             }
+            .fecha {
+                text-align: center;
+            }
+            .titulo {
+                text-align: center;
+            }
+            .texto {
+                display: none;
+            }
+
+            .col img {
+                max-width: 100%;
+                max-height: 300px;
+            }
         }
     }
 }
+
+
 
 

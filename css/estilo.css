@@ -51,8 +51,16 @@ main .container .eslogan {
   color: black;
   text-align: center; }
 
+main .container .carousel-inner .carousel-item {
+  height: 500px; }
+
 footer {
   background-color: black; }
+
+footer .container .row .col {
+  font-family: "princfont";
+  color: white;
+  text-align: center; }
 
 @font-face {
   font-family: "princfont";
@@ -80,7 +88,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
   main .carousel-item {
-    height: auto; }
+    height: 200px !important; }
   main .fecha {
     text-align: center; }
   main .titulo {

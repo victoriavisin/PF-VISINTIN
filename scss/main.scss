@@ -100,3 +100,13 @@ main {
     }
 }
 
+main {
+    .container {
+        .carousel-inner {
+            .carousel-item {
+                height: 500px;
+            }
+        }
+    }
+}
+

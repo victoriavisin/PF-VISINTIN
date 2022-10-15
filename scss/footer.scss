@@ -1,3 +1,15 @@
 footer {
     background-color: black;
 }
+
+footer {
+    .container {
+        .row {
+            .col {
+                font-family: $fuente;
+                color: white;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@ main {
     @if $vista == desktop{
        @media only screen and (min-width:1024px) {
             .carousel-item {
-                 height: 1px;
+                 height: 500px;
                 }
             }
         }
@@ -12,7 +12,7 @@ main {
     @else if $vista == mobile {
          @media only screen and (max-width:767px) {
           .carousel-item {
-               height: auto;
+               height: 200px !important;
             }
             .fecha {
                 text-align: center;

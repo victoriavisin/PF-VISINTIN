@@ -43,9 +43,6 @@ main .row .col .texto {
   font-family: "princfont";
   color: black; }
 
-main .row .col .btn {
-  font-family: "princfont"; }
-
 main .container .eslogan {
   font-family: "princfont";
   color: black;
@@ -97,4 +94,9 @@ footer .container .row .col {
     display: none; }
   main .col img {
     max-width: 100%;
-    max-height: 300px; } }
+    max-height: 300px; }
+  main .img-fluid {
+    height: 160px !important; }
+  main .mapa {
+    width: 75% !important;
+    height: 200px !important; } }

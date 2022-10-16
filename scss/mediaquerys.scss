@@ -28,6 +28,14 @@ main {
                 max-width: 100%;
                 max-height: 300px;
             }
+            .img-fluid {
+                height: 160px !important;
+            }
+
+            .mapa {
+                width: 75% !important;
+                height: 200px !important;
+            }
         }
     }
 }

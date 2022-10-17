@@ -28,7 +28,7 @@ main {
                 max-width: 100%;
                 max-height: 300px;
             }
-            .img-fluid {
+            .img-fluid  {
                 height: 160px !important;
             }
 
@@ -36,10 +36,32 @@ main {
                 width: 75% !important;
                 height: 200px !important;
             }
+
+            #arquitectos img{
+                height: 100px !important;
+                
+            }
+            #arquitectos {
+                font-size: 15px !important;
+            }
         }
     }
 }
 
+
+@media (max-width: 991.98px) {
+    #arquitectos img {
+        height: 200px !important;
+    }
+    #arquitectos {
+        font-size: 15px !important;
+    }
+
+    #galeria img {
+        height: 200px !important;
+    }
+
+}
 
 
 

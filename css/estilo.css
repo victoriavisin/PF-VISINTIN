@@ -51,6 +51,16 @@ main .container .eslogan {
 main .container .carousel-inner .carousel-item {
   height: 500px; }
 
+main #galeria .row .col-4 {
+  padding: 25px;
+  margin: 0 !important; }
+  main #galeria .row .col-4 .img-fluid {
+    height: 250px !important;
+    width: 100% !important; }
+
+main #galeria .row .col-4 .img-fluid:hover {
+  border: 5px solid white; }
+
 footer {
   background-color: black; }
 
@@ -99,4 +109,16 @@ footer .container .row .col {
     height: 160px !important; }
   main .mapa {
     width: 75% !important;
+    height: 200px !important; }
+  main #arquitectos img {
+    height: 100px !important; }
+  main #arquitectos {
+    font-size: 15px !important; } }
+
+@media (max-width: 991.98px) {
+  #arquitectos img {
+    height: 200px !important; }
+  #arquitectos {
+    font-size: 15px !important; }
+  #galeria img {
     height: 200px !important; } }

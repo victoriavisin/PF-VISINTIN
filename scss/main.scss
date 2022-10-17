@@ -101,3 +101,34 @@ main {
     }
 }
 
+
+main {
+    #galeria {
+        .row {
+            .col-4 {
+                padding: 25px;
+                margin: 0 !important;
+                .img-fluid {
+                    height: 250px !important;
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+}
+
+main {
+    #galeria {
+        .row {
+            .col-4 {
+                .img-fluid:hover {
+                    border: 5px solid white;
+                }
+            }
+        }
+    }
+
+}
+
+

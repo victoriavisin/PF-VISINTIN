@@ -105,7 +105,7 @@ main {
 main {
     #galeria {
         .row {
-            .col-4 {
+            .col {
                 padding: 25px;
                 margin: 0 !important;
                 .img-fluid {
@@ -121,7 +121,7 @@ main {
 main {
     #galeria {
         .row {
-            .col-4 {
+            .col {
                 .img-fluid:hover {
                     border: 5px solid white;
                 }

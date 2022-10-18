@@ -51,14 +51,14 @@ main .container .eslogan {
 main .container .carousel-inner .carousel-item {
   height: 500px; }
 
-main #galeria .row .col-4 {
+main #galeria .row .col {
   padding: 25px;
   margin: 0 !important; }
-  main #galeria .row .col-4 .img-fluid {
+  main #galeria .row .col .img-fluid {
     height: 250px !important;
     width: 100% !important; }
 
-main #galeria .row .col-4 .img-fluid:hover {
+main #galeria .row .col .img-fluid:hover {
   border: 5px solid white; }
 
 footer {

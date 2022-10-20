@@ -71,8 +71,7 @@ main {
     .row {
         .col {
             .texto {
-                font-family: $fuente;
-                color: $colorprincipal;
+                @include font-color 
             }
         }
     }
@@ -109,8 +108,7 @@ main {
                 padding: 25px;
                 margin: 0 !important;
                 .img-fluid {
-                    height: 250px !important;
-                    width: 100% !important;
+                    @include img-fluid
                 }
             }
         }
@@ -130,5 +128,107 @@ main {
     }
 
 }
+
+main {
+    #galeria {
+        .row {
+            .col {
+                .ubicacion {
+                    @include font-color 
+                }
+            }
+        }
+    }
+}
+
+main {
+    #servicios {
+        .row {
+            .col {
+                .img-fluid:hover {
+                    border: 5px solid white;
+                }
+            }
+        }
+    }
+
+}
+
+main {
+    #servicios {
+        .row {
+            .col {
+                padding: 25px;
+                margin: 0 !important;
+                .img-fluid {
+                    @include img-fluid
+                }
+            }
+        }
+    }
+
+}
+
+main {
+    .contacto {
+        font-family: $fuente;
+    }
+}
+
+main {
+    #galeria {
+        .row {
+            .col {
+                padding: 25px;
+                margin: 0 !important;
+                .img-fluid {
+                    @include img-fluid
+                }
+            }
+        }
+    }
+
+}
+
+main {
+    #interiores {
+        .row {
+            .col {
+                .img-fluid:hover {
+                    border: 5px solid white;
+                }
+            }
+        }
+    }
+
+}
+
+main {
+    #interiores {
+        .row {
+            .col {
+                .ubicacion {
+                    @include font-color 
+                }
+            }
+        }
+    }
+}
+
+main {
+    #interiores {
+        .row {
+            .col {
+                padding: 25px;
+                margin: 0 !important;
+                .img-fluid {
+                    @include img-fluid
+                }
+            }
+        }
+    }
+
+}
+
 
 

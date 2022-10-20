@@ -1,0 +1,11 @@
+@mixin font-color {
+    font-family: "princfont";
+    color: black;
+    
+}
+
+@mixin img-fluid {
+    height: 250px !important;
+    width: 100% !important;
+}
+

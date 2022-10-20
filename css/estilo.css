@@ -61,6 +61,44 @@ main #galeria .row .col {
 main #galeria .row .col .img-fluid:hover {
   border: 5px solid white; }
 
+main #galeria .row .col .ubicacion {
+  font-family: "princfont";
+  color: black; }
+
+main #servicios .row .col .img-fluid:hover {
+  border: 5px solid white; }
+
+main #servicios .row .col {
+  padding: 25px;
+  margin: 0 !important; }
+  main #servicios .row .col .img-fluid {
+    height: 250px !important;
+    width: 100% !important; }
+
+main .contacto {
+  font-family: "princfont"; }
+
+main #galeria .row .col {
+  padding: 25px;
+  margin: 0 !important; }
+  main #galeria .row .col .img-fluid {
+    height: 250px !important;
+    width: 100% !important; }
+
+main #interiores .row .col .img-fluid:hover {
+  border: 5px solid white; }
+
+main #interiores .row .col .ubicacion {
+  font-family: "princfont";
+  color: black; }
+
+main #interiores .row .col {
+  padding: 25px;
+  margin: 0 !important; }
+  main #interiores .row .col .img-fluid {
+    height: 250px !important;
+    width: 100% !important; }
+
 footer {
   background-color: black; }
 
@@ -113,7 +151,13 @@ footer .container .row .col {
   main #arquitectos img {
     height: 100px !important; }
   main #arquitectos {
-    font-size: 15px !important; } }
+    font-size: 15px !important; }
+  main #galeria {
+    width: 75% !important; }
+  main #interiores {
+    width: 75% !important; }
+  main .rounded {
+    height: 150px !important; } }
 
 @media (max-width: 991.98px) {
   #arquitectos img {

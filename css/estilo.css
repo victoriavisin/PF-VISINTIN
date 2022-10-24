@@ -1,6 +1,8 @@
 .header {
-  background-image: url(../assets/images/bg-headeroscuro.jpg);
-  background-size: cover; }
+  background-image: url(../assets/images/header2.jpg);
+  background-size: cover;
+  margin: 0 !important;
+  padding: 0 !important; }
 
 header .navbar ul li {
   text-decoration: none; }
@@ -13,6 +15,18 @@ header .container .row .col .titulo {
   font-family: "princfont";
   margin-top: 70px;
   text-align: center; }
+
+header .container-fluid {
+  margin: 0% !important;
+  padding: 0% !important; }
+
+header .container-fluid .wave {
+  margin-top: 0% !important;
+  margin: 0% !important;
+  padding: 0% !important; }
+
+main {
+  background-color: white; }
 
 main .container .frase {
   text-align: center;
@@ -157,7 +171,8 @@ footer .container .row .col {
   main #interiores {
     width: 75% !important; }
   main .rounded {
-    height: 150px !important; } }
+    height: 150px !important;
+    width: 75% !important; } }
 
 @media (max-width: 991.98px) {
   #arquitectos img {

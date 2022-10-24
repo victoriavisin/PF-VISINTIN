@@ -1,8 +1,15 @@
 .header {
-    background-image: url(../assets/images/bg-headeroscuro.jpg);
+    background-image: url(../assets/images/header2.jpg);
     background-size: cover;
     
+    margin: 0 !important;
+    padding: 0 !important;
+    
+    
+    
 }
+
+
 header {
     .navbar {
         ul {
@@ -32,4 +39,27 @@ header {
         }
     }
 }
+
+header {
+    .container-fluid {
+        margin: 0% !important;
+        padding: 0% !important;
+    }
+}
+
+header {
+    .container-fluid {
+        .wave {
+            margin-top: 0% !important;
+            margin: 0% !important;
+            padding: 0% !important;
+        }
+    }
+}
+
+
+
+
+
+
 
